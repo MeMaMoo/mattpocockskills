@@ -1,0 +1,53 @@
+docs/engineering/to-tickets.md
+  40b02e684bb2c4a2 53,56
+skills/engineering/code-review-two-axis/SKILL.md
+  40b02e684bb2c4a2 2
+skills/engineering/implement/SKILL.md
+  40b02e684bb2c4a2 13
+skills/engineering/ask-matt/SKILL.md
+  40b02e684bb2c4a2 26
+docs/engineering/tdd.md
+  40b02e684bb2c4a2 44,47
+docs/engineering/code-review-two-axis.md
+  40b02e684bb2c4a2 4,8,11,15,19,21,41,44
+skills/engineering/README.md
+  40b02e684bb2c4a2 29
+.agents/writing-docs.md
+  40b02e684bb2c4a2 60
+.changeset/rename-code-review-two-axis.md
+  40b02e684bb2c4a2 1-5
+skills/engineering/tdd/SKILL.md
+  40b02e684bb2c4a2 36
+docs/engineering/to-spec.md
+  40b02e684bb2c4a2 56
+.claude-plugin/plugin.json
+  40b02e684bb2c4a2 19
+docs/engineering/implement.md
+  40b02e684bb2c4a2 36,39
+docs/engineering/grill-with-docs.md
+  40b02e684bb2c4a2 47
+docs/engineering/ask-matt.md
+  40b02e684bb2c4a2 17
+README.md
+  40b02e684bb2c4a2 159,170
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.10",
+  "base_commit_sha": "e859a19a031fdc9b0731f56307ae195ad4f23fe9",
+  "prompts": {
+    "40b02e684bb2c4a2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1024c0e2-3c6b-4595-848b-39b927e489ec",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Mark Dawes <mark.dawes@gmail.com>",
+      "messages": [],
+      "total_additions": 31,
+      "total_deletions": 26,
+      "accepted_lines": 31,
+      "overriden_lines": 0
+    }
+  }
+}
