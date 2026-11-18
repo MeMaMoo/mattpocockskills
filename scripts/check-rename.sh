@@ -11,11 +11,13 @@ set -euo pipefail
 #   - aihero.dev/skills-code-review URLs: Matt's site, not a skill name.
 #   - Lines that talk about Claude Code's own built-in `/code-review`.
 #   - CHANGELOG.md and .changeset/: release history, left as upstream wrote it.
+#   - .out-of-scope/: upstream's rejection records. They quote issue titles and
+#     discuss the name collision itself, so they keep upstream's name.
 
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
 
 hits="$(
-  git -C "$REPO" grep -nP '(?<!skills-)\bcode-review(?!-two-axis|er)\b' -- . ':!CHANGELOG.md' ':!.changeset' ':!scripts/check-rename.sh' \
+  git -C "$REPO" grep -nP '(?<!skills-)\bcode-review(?!-two-axis|er)\b' -- . ':!CHANGELOG.md' ':!.changeset' ':!.out-of-scope' ':!scripts/check-rename.sh' \
     | grep -vE "(Claude Code's own|Claude Code ships its own) \`/code-review\`" \
     || true
 )"
